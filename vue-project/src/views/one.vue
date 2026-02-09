@@ -1,7 +1,6 @@
-<script setup></script>
 <template>
   <div>
-    <RouterView />
+    <h1>Pizza Pizza Pizza</h1>
   </div>
 </template>
 
