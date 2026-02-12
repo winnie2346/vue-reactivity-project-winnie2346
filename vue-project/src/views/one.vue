@@ -18,10 +18,12 @@
   </div>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
 <style scoped>
+.display {
+  place-items: left;
+}
 .text {
   place-items: center;
 }
