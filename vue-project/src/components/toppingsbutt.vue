@@ -1,12 +1,12 @@
 <template>
     <div>
-{{ ineetopoopoo.doodoo }}
+{{ grrrwiththreer.shyt}}
     </div>
 </template>
 
 <script setup>
 defineProps({
- ineetopoopoo : {
+  grrrwiththreer: {
     type: Object,
     required: true,
   },
