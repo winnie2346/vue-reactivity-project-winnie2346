@@ -9,7 +9,7 @@
       alt=""
     />
 
-    <button><Routerlink to="/game">start</Routerlink></button>
+    <button><RouterLink to="/game">start</RouterLink></button>
   </div>
 </template>
 
