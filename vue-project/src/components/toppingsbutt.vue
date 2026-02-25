@@ -1,7 +1,5 @@
 <template>
-    <div>
-{{ grrrwiththreer.shyt}}
-    </div>
+  <img :src="grrrwiththreer.shyt" alt="" />
 </template>
 
 <script setup>
@@ -13,6 +11,4 @@ defineProps({
 })
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
