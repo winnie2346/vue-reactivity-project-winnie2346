@@ -1,5 +1,5 @@
 <template>
-  <img :src="grrrwiththreer.shyt" alt="" />
+  <button class="boonoo"><img :src="grrrwiththreer.shyt" alt="" /></button>
 </template>
 
 <script setup>
@@ -11,4 +11,9 @@ defineProps({
 })
 </script>
 
-<style scoped></style>
+<style scoped>
+.boonoo {
+  background: transparent;
+  border-color: transparent;
+}
+</style>
