@@ -16,4 +16,7 @@ defineProps({
   background: transparent;
   border-color: transparent;
 }
+button:hover {
+  transform: scale(110%);
+}
 </style>
