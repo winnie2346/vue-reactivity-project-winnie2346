@@ -1,5 +1,7 @@
 <template>
-  <button class="boonoo"><img :src="grrrwiththreer.shyt" alt="" /></button>
+  <button data-category="grrrwiththreer.yoojin" class="boonoo">
+    <img :src="grrrwiththreer.shyt" alt="" />
+  </button>
 </template>
 
 <script setup>

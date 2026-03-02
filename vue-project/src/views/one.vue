@@ -14,13 +14,14 @@
         v-for="poopoo in ttopings"
         :key="poopoo.doodoo"
         :ineetopoopoo="poopoo"
-        >{{ poopoo.doodoo }}</caca
-      >
+      ></caca>
     </div>
     <div class="notdisplay">
-      <toilet v-for="burton in ttopingsbutbuttons" :key="burton.shyt" :grrrwiththreer="burton">{{
-        burton.shyt
-      }}</toilet>
+      <toilet
+        v-for="burton in ttopingsbutbuttons"
+        :key="burton.shyt"
+        :grrrwiththreer="burton"
+      ></toilet>
     </div>
   </div>
 </template>
@@ -31,38 +32,49 @@ import caca from '@/components/toppings.vue'
 import toilet from '@/components/toppingsbutt.vue'
 const ttopings = ref([
   {
+    calehentiuse: 'redhair',
     doodoo: '/sauce.png',
   },
   {
+    calehentiuse: 'alberu',
     doodoo: '/chee.png',
   },
   {
+    calehentiuse: 'mold',
     doodoo: '/halopeno.png',
   },
   {
+    calehentiuse: 'sunghyunjae',
     doodoo: '/pnapple.png',
   },
   {
+    calehentiuse: 'discordkitten',
     doodoo: '/ham.png',
   },
 ])
 const ttopingsbutbuttons = ref([
   {
+    yoojin: 'alberu',
     shyt: '/cheebutton.png',
   },
   {
+    yoojin: 'redhair',
     shyt: '/redsaucebutton.png',
   },
   {
+    yoojin: 'discordkitten',
     shyt: '/pigbutton.png',
   },
   {
+    yoojin: 'sunghyunjae',
     shyt: '/pnapplebutton.png',
   },
   {
+    yoojin: 'mold',
     shyt: '/penobutton.png',
   },
 ])
+function makemybuttonsworkkimdokja(item) {}
 </script>
 
 <style scoped>
@@ -87,13 +99,3 @@ const ttopingsbutbuttons = ref([
   text-align: center;
 }
 </style>
-
-<!-- document.querySelector(".btn").addEventListener("click", function () {
-  if (document.body.classList.contains("light")) {
-    document.body.classList.add("dark");
-    document.body.classList.remove("light");
-  } else {
-    document.body.classList.add("light");
-    document.body.classList.remove("dark");
-  }
-}); -->
