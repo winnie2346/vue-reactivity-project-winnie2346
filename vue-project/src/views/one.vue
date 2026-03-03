@@ -21,6 +21,7 @@
         v-for="burton in ttopingsbutbuttons"
         :key="burton.shyt"
         :grrrwiththreer="burton"
+        @click="makemybuttonsworkkimdokja"
       ></toilet>
     </div>
   </div>
@@ -74,7 +75,14 @@ const ttopingsbutbuttons = ref([
     shyt: '/penobutton.png',
   },
 ])
-function makemybuttonsworkkimdokja(item) {}
+
+function makemybuttonsworkkimdokja() {
+  ttopingsbutbuttons.forEach(button => {
+    const selected = button.yoojin;
+  }
+
+);
+}
 </script>
 
 <style scoped>

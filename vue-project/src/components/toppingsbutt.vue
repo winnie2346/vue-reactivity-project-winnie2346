@@ -11,6 +11,8 @@ defineProps({
     required: true,
   },
 })
+
+
 </script>
 
 <style scoped>
@@ -21,4 +23,6 @@ defineProps({
 button:hover {
   transform: scale(110%);
 }
+
+
 </style>
