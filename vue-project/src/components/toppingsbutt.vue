@@ -1,7 +1,8 @@
 <template>
-  <button data-category="grrrwiththreer.yoojin" class="boonoo">
+  <!-- <button data-category="grrrwiththreer.yoojin" class="boonoo"> -->
     <img :src="grrrwiththreer.shyt" alt="" />
-  </button>
+    <slot></slot>
+  <!-- </button> -->
 </template>
 
 <script setup>
@@ -16,11 +17,11 @@ defineProps({
 </script>
 
 <style scoped>
-.boonoo {
+/* .boonoo {
   background: transparent;
   border-color: transparent;
-}
-button:hover {
+} */
+img:hover {
   transform: scale(110%);
 }
 

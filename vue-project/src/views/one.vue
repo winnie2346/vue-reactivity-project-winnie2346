@@ -17,12 +17,9 @@
       ></caca>
     </div>
     <div class="notdisplay">
-      <toilet
-        v-for="burton in ttopingsbutbuttons"
-        :key="burton.shyt"
-        :grrrwiththreer="burton"
-        @click="makemybuttonsworkkimdokja"
-      ></toilet>
+      <toilet v-for="burton in ttopingsbutbuttons" :key="burton.shyt" :grrrwiththreer="burton">
+        <button @click="makemybuttonsworkkimdokja(ahh)">gr</button></toilet
+      >
     </div>
   </div>
 </template>
@@ -76,12 +73,10 @@ const ttopingsbutbuttons = ref([
   },
 ])
 
-function makemybuttonsworkkimdokja() {
-  ttopingsbutbuttons.forEach(button => {
-    const selected = button.yoojin;
-  }
-
-);
+const ichooseyouyoojunghyuk = ref([])
+function makemybuttonsworkkimdokja(ahh) {
+  ichooseyouyoojunghyuk.value = [ichooseyouyoojunghyuk.value, ahh]
+  console.log(ichooseyouyoojunghyuk.value.yoojin)
 }
 </script>
 
