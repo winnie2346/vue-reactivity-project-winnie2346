@@ -16,10 +16,10 @@ const router = createRouter({
       name: 'game',
       component: one,
     },
-     {
-      path: '/complete',
-      name: 'buns',
-      component:Complete ,
+    {
+      path: '/pizzapizza',
+      name: 'pizzapizza',
+      component: complete,
     },
   ],
 })

@@ -1,10 +1,10 @@
 <template>
   <div class="googoogaga">
     <div class="buttt">
-      <h1>Chef Bob's 5 Mitchellin stor Pizzaria</h1>
+      <h1>Chef Bob's 100 Mitchellin stor Pizzaria</h1>
       <h2>NO REFUNDS, NO COMPLAINTs</h2>
-      <h3>(Cookin' like a chef I'm a 5 star 미슐랭 "미"의 정점을 찍고 눈에 보여 illusion)</h3>
-      <h4>((im not korean ion know what that means))</h4>
+
+      <button class="bobbybobby"><RouterLink to="/pizzapizza">ALL DONE</RouterLink></button>
     </div>
 
     <div class="display">
@@ -100,5 +100,8 @@ function makemybuttonsworkkimdokja(ahh) {
 }
 .buttt {
   text-align: center;
+}
+.bobbybobby {
+  margin-bottom: 20px;
 }
 </style>
