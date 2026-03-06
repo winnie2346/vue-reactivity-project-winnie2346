@@ -17,9 +17,12 @@
       ></caca>
     </div>
     <div class="notdisplay">
-      <toilet v-for="burton in ttopingsbutbuttons" :key="burton.shyt" :grrrwiththreer="burton">
-        <button @click="makemybuttonsworkkimdokja(ahh)">gr</button></toilet
-      >
+      <toilet
+        @click="addthistothecartpoopiebutt(topeepee)"
+        v-for="burton in ttopingsbutbuttons"
+        :key="burton.shyt"
+        :grrrwiththreer="burton"
+      ></toilet>
     </div>
   </div>
 </template>
@@ -72,11 +75,9 @@ const ttopingsbutbuttons = ref([
     shyt: '/penobutton.png',
   },
 ])
-
-const ichooseyouyoojunghyuk = ref([])
-function makemybuttonsworkkimdokja(ahh) {
-  ichooseyouyoojunghyuk.value = [ichooseyouyoojunghyuk.value, ahh]
-  console.log(ichooseyouyoojunghyuk.value.yoojin)
+function addthistothecartpoopiebutt(topeepee) {
+  const buttonofpoo = ref([]).shyt
+  console.log(buttonofpoo)
 }
 </script>
 
