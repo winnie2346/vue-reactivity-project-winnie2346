@@ -18,7 +18,7 @@
     </div>
     <div class="notdisplay">
       <toilet
-        @click="addthistothecartpoopiebutt(topeepee)"
+        @click="addthistothecartpoopiebutt(burton)"
         v-for="burton in ttopingsbutbuttons"
         :key="burton.shyt"
         :grrrwiththreer="burton"
@@ -31,7 +31,8 @@
 import { ref } from 'vue'
 import caca from '@/components/toppings.vue'
 import toilet from '@/components/toppingsbutt.vue'
-const ttopings = ref([
+const ttopings = ref([])
+const actaulttopings = [
   {
     calehentiuse: 'redhair',
     doodoo: '/sauce.png',
@@ -52,7 +53,7 @@ const ttopings = ref([
     calehentiuse: 'discordkitten',
     doodoo: '/ham.png',
   },
-])
+]
 const ttopingsbutbuttons = ref([
   {
     yoojin: 'alberu',
@@ -76,9 +77,19 @@ const ttopingsbutbuttons = ref([
   },
 ])
 function addthistothecartpoopiebutt(topeepee) {
-  const buttonofpoo = ref([]).shyt
-  console.log(buttonofpoo)
+  const buttonofpoo = topeepee.yoojin
+const poo = ttopings.value.find(
+  bomb => bomb.calehentiuse === buttonofpoo)
+if (poo){
+ ttopings.value = ttopings.value.filter(
+      topping => topping.calehentiuse !== buttonofpoo
+    )
+    } else {
+  const holytrinity = actaulttopings.find(bomb => bomb.calehentiuse === buttonofpoo)
+    if (holytrinity) ttopings.value.push(holytrinity)
+  }
 }
+
 </script>
 
 <style scoped>
